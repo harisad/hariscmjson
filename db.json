@@ -1,14 +1,20 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1,
+     "thumb":"https://img.freepik.com/free-vector/yellow-color-halftone-youtube-thumbnail-background_562076-95.jpg",
+     "title": "Post 1",
+    "isi" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"},
+    { "id": 2,
+     "thumb":"https://img.freepik.com/free-vector/yellow-color-halftone-youtube-thumbnail-background_562076-95.jpg",
+     "title": "Post 2",
+    "isi" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"},
+    { "id": 3,
+     "title": "Post 3",
+     "thumb": "https://img.freepik.com/free-vector/yellow-color-halftone-youtube-thumbnail-background_562076-95.jpg",
+    "isi" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "authors": {
+    "name" : "Haris Mujianto",
+    "avatar" : "https://cdn-icons-png.flaticon.com/512/147/147142.png"
   }
 }
